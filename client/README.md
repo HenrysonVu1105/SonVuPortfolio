@@ -1,3 +1,7 @@
+// File name: README.md
+// Student name: Vu Huy Hoang Son
+// Student ID: 301366093
+// Date: 21 Sep 2024
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
