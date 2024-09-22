@@ -2,11 +2,7 @@
 // Student name: Vu Huy Hoang Son
 // Student ID: 301366093
 // Date: 21 Sep 2024
-<<<<<<< HEAD
 
-//commment
-=======
->>>>>>> origin/main
 export default function Service() {
     return (
     <div className="service-container">
