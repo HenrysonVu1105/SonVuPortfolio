@@ -1,3 +1,9 @@
+/*
+// File name: index.css
+// Student name: Vu Huy Hoang Son
+// Student ID: 301366093
+// Date: 21 Sep 2024
+*/
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -12,6 +18,7 @@
   margin: 0;
   padding: 0;
 }
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -56,12 +63,13 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-
+/* nav bar design */
 nav {
 float:right;
 font-size:x-large;
 color: aqua;
 }
+/* header  design */
 header{
   display:flex;
   align-items: center;
@@ -70,6 +78,7 @@ header{
   padding: 0;
   height: 96px;
 }
+/* Home.jsx design */
 .home-container{
   text-align: center;
 }
@@ -80,6 +89,7 @@ p{
   border: 1px solid #646cff;
   background-color: #9fb6c3;
 }
+/* about.jsx design */
 .about-container{
   display:grid;
   grid-template-columns: 1fr 1fr;
@@ -89,16 +99,61 @@ p{
   margin-right: 10px;
   font-size: 20px;
 }
+
+/* project.jsx design */
 .project-header h1{
   text-align: center;
 }
 .project-content{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
-
 }
 figure img{
   width: 400px;
   height: auto;
-  vertical-align: top;
+  margin: 0 auto;
+  display: block;
+}
+/* service.jsx design */
+.service-header h1{
+  text-align: center;
+}
+.service-content{
+  display:grid;
+  grid-template-columns: 1fr 1fr ;
+}
+/* contact.jsx design */
+.contact-panel{
+  width: 20%;
+  margin: auto;
+}
+.panel-content p{
+  margin:0;
+}
+.contact-panel button{
+  font-size: 20px;
+  color: #646cff;
+}
+.contact-form{
+  text-align: center;
+  width: 40%;
+  margin:auto;
+}
+.contact-form label{
+  text-align: left;
+  display: block;
+  color:#646cff;
+  font-size: 15px;
+}
+.contact-form input{
+  border: 1px solid #646cff;
+  height: 2em;
+  width: 100%;
+  font-size: 12px;
+  border-radius: 3px;
+}
+.contact-form textarea{
+  width: 100%;
+  border: 1px solid #646cff;
+  font-size: 12px;
 }

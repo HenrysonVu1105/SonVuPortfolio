@@ -1,3 +1,8 @@
+// File name: MainRouter.jsx
+// Student name: Vu Huy Hoang Son
+// Student ID: 301366093
+// Date: 21 Sep 2024
+
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
@@ -18,7 +23,7 @@ import Resume from './components/Resume'
                         <Route exact path="/service" element={<Service />} />
                         <Route exact path="/project" element={<Project />} />
                         <Route exact path="/contact" element={<Contact />} />
-                        <Route exact path="/resume" element={<Resume />}/>
+                        <Route exact path="/resume" element={<Resume />}/>// resume.jsx
                 </Routes>
         </div>
         )

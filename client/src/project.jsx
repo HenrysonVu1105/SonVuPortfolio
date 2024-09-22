@@ -1,3 +1,7 @@
+// File name: project.jsx
+// Student name: Vu Huy Hoang Son
+// Student ID: 301366093
+// Date: 21 Sep 2024
 export default function Project() {
     return (
         <div>
@@ -28,7 +32,7 @@ export default function Project() {
                 <figure>
                     <img src="./img/ShoppingForm.png" alt="Shopping Form Website"></img>
                     <ficaption>
-                    <h2>Calculator App</h2>
+                    <h2>Shopping Website</h2>
                         <p>A user-friendly shopping form allows users to enter their shipping and billing information with real-time validation.
                         This project highlights my skills in form design and client-side scripting to enhance user interaction.</p>
                         <p><strong>Language:</strong>HTML/CSS and JavaScript</p>
